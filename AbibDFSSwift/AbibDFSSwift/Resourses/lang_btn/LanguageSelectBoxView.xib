@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LanguageSelectBoxView" customModule="AbibDFSSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="listView" destination="hI9-eJ-sYg" id="mjy-gV-yjQ"/>
+                <outlet property="mainImageView" destination="zGJ-Lu-wgu" id="sna-4R-FLh"/>
+                <outlet property="mainView" destination="5Vh-Ng-6fG" id="cPD-bb-TPx"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Vh-Ng-6fG">
+                    <rect key="frame" x="0.0" y="0.0" width="225" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chn.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zGJ-Lu-wgu">
+                            <rect key="frame" x="0.0" y="0.0" width="225" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="6e6-bF-py4">
+                            <rect key="frame" x="185" y="17" width="24" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hI9-eJ-sYg">
+                    <rect key="frame" x="0.0" y="60" width="225" height="150"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QmR-8g-U33">
+                            <rect key="frame" x="0.0" y="0.0" width="225" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="0" image="chn_a.jpg"/>
+                            <connections>
+                                <action selector="onClickItems:" destination="-1" eventType="touchUpInside" id="y2d-kH-vsA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5d-VM-8zs">
+                            <rect key="frame" x="0.0" y="50" width="225" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="1" image="kor.jpg"/>
+                            <connections>
+                                <action selector="onClickItems:" destination="-1" eventType="touchUpInside" id="QCl-nK-A2W"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJ1-jX-BgH">
+                            <rect key="frame" x="0.0" y="100" width="225" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="2" image="eng.jpg"/>
+                            <connections>
+                                <action selector="onClickItems:" destination="-1" eventType="touchUpInside" id="ojr-xj-htO"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow.png" width="48" height="34"/>
+        <image name="chn.jpg" width="450" height="100"/>
+        <image name="chn_a.jpg" width="450" height="100"/>
+        <image name="eng.jpg" width="450" height="100"/>
+        <image name="kor.jpg" width="450" height="100"/>
+    </resources>
+</document>
