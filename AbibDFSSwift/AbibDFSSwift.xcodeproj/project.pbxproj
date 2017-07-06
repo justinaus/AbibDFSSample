@@ -130,6 +130,7 @@
 		E2BDB7821F0BEC9D00B9908B /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB77E1F0BEC9D00B9908B /* GifView.swift */; };
 		E2BDB7831F0BEC9D00B9908B /* LanguageSelectBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB77F1F0BEC9D00B9908B /* LanguageSelectBoxView.swift */; };
 		E2BDB7841F0BEC9D00B9908B /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB7801F0BEC9D00B9908B /* VideoView.swift */; };
+		E2C911521F0EA48400C50AAA /* abib_icon_trans_500.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C911511F0EA48400C50AAA /* abib_icon_trans_500.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -260,6 +261,7 @@
 		E2BDB77E1F0BEC9D00B9908B /* GifView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
 		E2BDB77F1F0BEC9D00B9908B /* LanguageSelectBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageSelectBoxView.swift; sourceTree = "<group>"; };
 		E2BDB7801F0BEC9D00B9908B /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		E2C911511F0EA48400C50AAA /* abib_icon_trans_500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abib_icon_trans_500.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +329,7 @@
 		E233F7A91F0524CE005801D2 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				E2C911511F0EA48400C50AAA /* abib_icon_trans_500.png */,
 				E2BDB7641F0B908B00B9908B /* did_170617.mp4 */,
 				E233F8901F06C6A8005801D2 /* 881.gif */,
 				E233F8651F068EF7005801D2 /* KORver */,
@@ -675,6 +678,7 @@
 				E233F7E71F0524CE005801D2 /* 3-3-1.jpg in Resources */,
 				E233F8011F0524CE005801D2 /* 2-4-3.jpg in Resources */,
 				E233F80C1F0524CE005801D2 /* btn4.png in Resources */,
+				E2C911521F0EA48400C50AAA /* abib_icon_trans_500.png in Resources */,
 				E233F80F1F0524CE005801D2 /* main_bg.jpg in Resources */,
 				E233F8371F0542A1005801D2 /* 2-2.jpg in Resources */,
 				E233F85A1F0616F0005801D2 /* LanguageSelectBoxView.xib in Resources */,
