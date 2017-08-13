@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TimerDelegate, UIViewDele
     
     
     public func showVideo( _ animated:Bool ) {
-        let url = Bundle.main.url(forResource: "did_170617", withExtension: "mp4")!
+        let url = Bundle.main.url(forResource: "170712_LDFDID", withExtension: "mp4")!
+        //let url = Bundle.main.url(forResource: "did_170617", withExtension: "mp4")!
         let rect = CGRect(x: 0, y: 0, width: window!.frame.size.width, height: window!.frame.size.height);
         
         let videoView = VideoView(rect: rect,url:url);
