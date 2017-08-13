@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
@@ -122,8 +122,8 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIO-EY-sz3">
                                         <rect key="frame" x="50" y="30" width="100" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button" image="back_btn.jpg"/>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="0.0" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button" image="back_btn.png"/>
                                         <connections>
                                             <segue destination="GYu-Wm-gmD" kind="unwind" customClass="SegueUnwindToRight" customModule="AbibDFSSwift" customModuleProvider="target" unwindAction="unwindToVC:" id="sCW-G4-UR2"/>
                                         </connections>
@@ -156,7 +156,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="back_btn.jpg" width="200" height="100"/>
+        <image name="back_btn.png" width="200" height="100"/>
         <image name="btn1.png" width="600" height="350"/>
         <image name="btn2.png" width="600" height="350"/>
         <image name="btn3.png" width="600" height="350"/>

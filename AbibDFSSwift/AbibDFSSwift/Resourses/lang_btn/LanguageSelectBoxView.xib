@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -25,7 +25,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="225" height="50"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chn.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zGJ-Lu-wgu">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chn.png" translatesAutoresizingMaskIntoConstraints="NO" id="zGJ-Lu-wgu">
                             <rect key="frame" x="0.0" y="0.0" width="225" height="50"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
@@ -43,7 +43,7 @@
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QmR-8g-U33">
                             <rect key="frame" x="0.0" y="0.0" width="225" height="50"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="0" image="chn_a.jpg"/>
+                            <state key="normal" title="0" image="chn_a.png"/>
                             <connections>
                                 <action selector="onClickItems:" destination="-1" eventType="touchUpInside" id="y2d-kH-vsA"/>
                             </connections>
@@ -51,7 +51,7 @@
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5d-VM-8zs">
                             <rect key="frame" x="0.0" y="50" width="225" height="50"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="1" image="kor.jpg"/>
+                            <state key="normal" title="1" image="kor.png"/>
                             <connections>
                                 <action selector="onClickItems:" destination="-1" eventType="touchUpInside" id="QCl-nK-A2W"/>
                             </connections>
@@ -59,7 +59,7 @@
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJ1-jX-BgH">
                             <rect key="frame" x="0.0" y="100" width="225" height="50"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="2" image="eng.jpg"/>
+                            <state key="normal" title="2" image="eng.png"/>
                             <connections>
                                 <action selector="onClickItems:" destination="-1" eventType="touchUpInside" id="ojr-xj-htO"/>
                             </connections>
@@ -72,9 +72,9 @@
     </objects>
     <resources>
         <image name="arrow.png" width="48" height="34"/>
-        <image name="chn.jpg" width="450" height="100"/>
-        <image name="chn_a.jpg" width="450" height="100"/>
-        <image name="eng.jpg" width="450" height="100"/>
-        <image name="kor.jpg" width="450" height="100"/>
+        <image name="chn.png" width="450" height="100"/>
+        <image name="chn_a.png" width="450" height="100"/>
+        <image name="eng.png" width="450" height="100"/>
+        <image name="kor.png" width="450" height="100"/>
     </resources>
 </document>

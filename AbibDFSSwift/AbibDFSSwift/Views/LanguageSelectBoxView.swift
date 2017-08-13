@@ -79,11 +79,14 @@ class LanguageSelectBoxView : UIView, UIGestureRecognizerDelegate {
             var image:UIImage?
             
             if( idx == toIndex ) {
-                image = UIImage(named: "\(fileName[idx])_a.jpg");
+                //image = UIImage(named: "\(fileName[idx])_a.jpg");
+                image = UIImage(named: "\(fileName[idx])_a.png");
                 
-                mainImageView.image = UIImage(named: "\(fileName[idx]).jpg");
+                mainImageView.image = UIImage(named: "\(fileName[idx]).png");
+                //mainImageView.image = UIImage(named: "\(fileName[idx]).jpg");
             } else {
-                image = UIImage(named: "\(fileName[idx]).jpg");
+                image = UIImage(named: "\(fileName[idx]).png");
+                //image = UIImage(named: "\(fileName[idx]).jpg");
             }
             
             button.setImage( image!, for: UIControlState.normal);
